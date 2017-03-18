@@ -102,3 +102,4 @@ class JobRegistry(object):
         else:
             if log_text:
                 log.info( "NO_SUBMIT_ALL_POOLS_DOWN %s" % log_text )
+
