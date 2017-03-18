@@ -1,6 +1,4 @@
-Dbix stratum proxy - for dubaicoin-pools using stratum protocol RPCv2
-
-Copyright (C) 2015  Atrides <mail@dwarfpool.com> http://DwarfPool.com/eth
+Dbix-stratum-proxy Originally developed for DwarfPool http://dwarfpool.com/eth. Forked by Arabianchain technology  developer for Pool Dubaicoin http://eu2.pool.dubaicoin.org.  2017 
 
 # Stratum proxy
 
