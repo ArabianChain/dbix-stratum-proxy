@@ -58,11 +58,6 @@ This is Stratum Proxy for Dubaicoin based pools (RPCv2) using asynchronous netwo
 * If not then mostly case that you have application running on this port, at example Antivirus.
 
 
-#Donations
-
-* ETH:  0xea7263feb7d8a8ab0a11eedd8f1ce04412ab0820
-
-
 #Requirements
 
 dbix-proxy is built in python. I have been testing it with 2.7.3, but it should work with other versions. The requirements for running the software are below.
