@@ -139,7 +139,7 @@ PEERS = [
 
 # Host and port for your workers
 HOST = "0.0.0.0"
-PORT = 8080
+PORT = 7070
 
 # Coin address where money goes.
 WALLET = 'XXXXXX'
@@ -153,8 +153,8 @@ MONITORING = False
 MONITORING_EMAIL = 'mail@example.com'
 
 # Main pool
-POOL_HOST = 'eth-eu.dwarfpool.com'
-POOL_PORT = 8008
+POOL_HOST = 'pool1.arabianchain.org'
+POOL_PORT = 7007
 
 # Failover pool.
 POOL_FAILOVER_ENABLE = False
