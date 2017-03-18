@@ -74,7 +74,7 @@ class Root(Resource):
             return
 
     def render_GET(self, request):
-        ret_text = "Ethereum stratum proxy<br>"
+        ret_text = "Dubaicoin - DBIX stratum proxy<br>"
         if self.job_registry and self.job_registry.jobs and self.job_registry.jobs.params:
             ret_text += "DAG-file: %s<br><br>" % str(self.job_registry.jobs.params[1][2:18])
         if self.job_registry.f:
@@ -90,3 +90,4 @@ class Root(Resource):
             connected = "connected" if (hasattr(self.job_registry.f3, "is_connected") and self.job_registry.f3.is_connected) else "disconnected"
             ret_text += "Failover server3 %s:%s (%s) %s<br>" % (self.job_registry.f3.main_host[0], self.job_registry.f3.main_host[1], self.job_registry.f3.remote_ip, connected)
         return ret_text
+
