@@ -81,7 +81,7 @@ dbix-proxy is built in python. I have been testing it with 2.7.3, but it should 
 
 2) start proxy with
 ```
- python ./eth-proxy.py
+ python ./dbix-proxy.py
 ```
 
 * [Windows]
