@@ -111,7 +111,7 @@ File Twisted-15.4.0.win32-py2.7.msi (32bit) or Twisted-15.4.0.win-amd64-py2.7.ms
 pywin32-219.win32-py2.7.exe or pywin32-219.win-amd64-py2.7.exe
 http://sourceforge.net/projects/pywin32/files/pywin32/
 
-7) Download eth-proxy. Extract eth-proxy.zip. Change settings in config.py and start with command:
+7) Download dbix-proxy. Extract dbix-proxy.zip. Change settings in config.py and start with command:
 ```
   python dbix-proxy.py
 ```
