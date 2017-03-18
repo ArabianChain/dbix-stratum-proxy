@@ -1,6 +1,7 @@
 #Description
 
-This is Stratum Proxy for Dubaicoin based pools (RPCv2) using asynchronous networking written in Python Twisted.Originally developed for DwarfPool http://dwarfpool.com/eth. Forked by Arabianchain technology developer  for http://eu2.pool.dubaicoin.org.
+This is Stratum Proxy for Dubaicoin based pools (RPCv2) using asynchronous networking written in Python Twisted.
+Originally developed for DwarfPool http://dwarfpool.com/eth. Forked by Arabianchain technology developer  for http://eu2.pool.dubaicoin.org.
 
 **NOTE:** This fork is still in development. Some features may be broken. Please report any broken features or issues.
 
