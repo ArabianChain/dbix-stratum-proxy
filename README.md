@@ -44,7 +44,7 @@ Originally developed for DwarfPool http://dwarfpool.com/eth. Forked by Arabianch
 
 #Command line to miner start, recommended farm-recheck to use with stratum-proxy is 200
 
-* ./ethminer --farm-recheck 200 -G -F http://127.0.0.1:7070/rig1
+* ./ethminer --farm-recheck 200 -G -F http://127.0.0.1:5599/rig1
 
 
 #External script to restart proxy (made by rain)
@@ -54,7 +54,7 @@ Originally developed for DwarfPool http://dwarfpool.com/eth. Forked by Arabianch
 
 # Proxy working check
 
-* To check that proxy works open in browser http://127.0.0.1:7070/ (or your changed ip and port from config)
+* To check that proxy works open in browser http://127.0.0.1:5599/ (or your changed ip and port from config)
 * If you see "Dbix stratum proxy" and some infos about connections.
 * If not then mostly case that you have application running on this port, at example Antivirus.
 
@@ -82,7 +82,7 @@ dbix-proxy is built in python. I have been testing it with 2.7.3, but it should 
 
 * [Windows]
 Download compiled version - releases
-https://github.com/ArabianChain
+https://github.com/ArabianChain/dbix-stratum-proxy/releases
 
 Or use python source code
 
